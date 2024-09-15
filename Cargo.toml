@@ -1,0 +1,12 @@
+[package]
+name = "connect-four-mcts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+env_logger = "0.11.3"
+log = "0.4.22"
+ratatui = "0.27.0"
+rand = { version = "0.8.4", features = ["small_rng"] }
+yamcts = "0.1.0"
